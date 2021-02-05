@@ -1,0 +1,69 @@
+.education-section-root-container {
+  margin-bottom: 100px;
+}
+
+.education-section-content-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.education-section-image-container {
+  padding: 10px;
+  border-right: 5px solid #d65a31;
+}
+
+.education-section-school-logo {
+  height: 100%;
+  width: 100%;
+}
+
+.education-section-school-knowledge {
+  padding-left: 50px;
+  font-size: 24px;
+  line-height: 48px;
+  font-family: "Work Sans", sans-serif;
+}
+
+@media only screen and (max-width: 1100px) {
+  .education-section-image-inner-container {
+    overflow: hidden;
+    height: 0;
+    padding-top: 100%;
+    position: relative;
+  }
+  .education-section-school-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: contain;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .education-section-image-inner-container {
+    padding-top: 50%;
+  }
+  .education-section-image-container {
+    border-right: none;
+    border-bottom: 5px solid #d65a31;
+    margin-bottom: 50px !important;
+  }
+  .education-section-content-container {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .education-section-image-container {
+    margin-bottom: 10px !important;
+  }
+  .education-section-school-knowledge {
+    padding-left: 10px;
+    font-size: 16px;
+    line-height: 32px;
+  }
+  .education-section-school-knowledge li::marker {
+    color: #d65a31;
+  }
+}

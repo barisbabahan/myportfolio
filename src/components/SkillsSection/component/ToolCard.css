@@ -1,0 +1,129 @@
+.tool-card-root-contianer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.tool-card-container {
+  width: 90% !important;
+  background-color: #222831;
+  border-radius: 10px;
+  padding: 30px 10px;
+}
+
+.tool-card-tool-img-container,
+.tool-card-tool-knowledge,
+.tool-knowledge-bar-percentage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tool-knowledge-bar-percentage,
+.tool-card-titlle,
+.tool-card-show-more-button-label,
+.tool-card-content-list {
+  font-family: "Work Sans", sans-serif;
+}
+
+.tool-card-titlle {
+  color: #d65a31;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+}
+
+.tool-card-tool-img-container {
+  width: 100%;
+  height: 100%;
+}
+
+.tool-card-tool-image {
+  width: 128px;
+  height: 100px;
+}
+
+.tool-card-tool-container,
+.tool-card-bar-container {
+  display: flex;
+}
+.tool-card-tool-container {
+  justify-content: space-evenly;
+}
+
+.tool-card-tool-knowledge {
+  width: 90%;
+  margin-right: 20px;
+}
+
+.tool-card-knowledge-bar-inner,
+.tool-card-knowledge-bar-outer {
+  border-radius: 100px;
+}
+
+.tool-card-knowledge-bar-outer {
+  width: 100%;
+  height: 50px;
+  padding: 12px;
+  background-color: #d65a31;
+}
+
+.tool-knowledge-bar-percentage {
+  font-size: 24px;
+}
+
+.tool-card-knowledge-bar-inner {
+  height: 100%;
+  background-color: #fff;
+}
+
+.tool-card-content-list {
+  width: 100%;
+  margin: 20px 0;
+  padding-left: 50px;
+  font-size: 24px;
+}
+
+.tool-card-content-list li::marker {
+  color: #d65a31;
+  line-height: 48px;
+}
+
+.tool-card-show-more-button {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.tool-card-show-more-button-label {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.tool-card-show-more-button-icon {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1300px) {
+  .tool-card-tool-container {
+    margin-bottom: 20px !important;
+  }
+  .tool-card-container {
+    margin-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .tool-card-container {
+    padding: 10px;
+  }
+}
