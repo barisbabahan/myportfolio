@@ -20,7 +20,7 @@ const ExperiencesSection = () => {
             Title: Front-end developer intern
           </h1>
           <p className="experience-content-tools">
-            Tools: Reactjs, Jira, Bitbucket, Git, Figma, Strapi
+            Tools: Reactjs, Jira, Bitbucket, Git, Figma, Strapi, Docker
           </p>
           <div className="experince-content-description">
             <ul>

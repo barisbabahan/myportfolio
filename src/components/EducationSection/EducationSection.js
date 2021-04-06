@@ -32,13 +32,13 @@ const EducationSection = () => {
         >
           <ul>
             <li>
-              Working with a team that has members from all over the world.
+              Learning each programming language fundamental. Learning data
             </li>
-            <li>Improved my communication.</li>
-            <li>Get a chance to work on real projects.</li>
-            <li>Understand the concept of working remotely.</li>
-            <li>Understand the concept of working remotely.</li>
-            <li>Real job experience.</li>
+            <li>
+              Structure and analysis of the algorithms. Improving analytical
+            </li>
+            <li>Mindset. Learning how to find the requirements for software</li>
+            <li>Projects. Improving communication and collaboration</li>
           </ul>
         </Grid>
       </div>

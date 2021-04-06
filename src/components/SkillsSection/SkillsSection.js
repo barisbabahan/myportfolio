@@ -7,7 +7,7 @@ import "./SkillSection.css";
 const toolsObj = [
   {
     toolName: "ReactJs",
-    percentage: "60%",
+    percentage: "75%",
     knowledge: [
       "The Component Lifecycle",
       "React Hooks",
@@ -19,27 +19,43 @@ const toolsObj = [
   },
   {
     toolName: "Git",
-    percentage: "60%",
+    percentage: "75%",
     knowledge: ["Collaborate With Teammates", "Create and Work Repository"],
     src: "./assets/tools/git.png",
   },
   {
-    toolName: "Jira",
+    toolName: "NodeJS",
+    percentage: "25%",
+    knowledge: ["Create basic CRUD operations", "Learning NodeJs"],
+    src: "./assets/tools/nodejs.png",
+  },
+  {
+    toolName: "MongoDB",
     percentage: "20%",
-    knowledge: ["Create and Work on Ticket", "Sprint planing"],
+    knowledge: ["Create schema", "Learning MongoDB"],
+    src: "./assets/tools/mongoDb.png",
+  },
+  {
+    toolName: "Docker",
+    percentage: "15%",
+    knowledge: ["Run docker", "Prune docker volume, images and system"],
+    src: "./assets/tools/docker.png",
+  },
+  {
+    toolName: "Jira",
+    percentage: "40%",
+    knowledge: [
+      "Create and Work on Ticket",
+      "Sprint planing",
+      "Agile methodology",
+    ],
     src: "./assets/tools/jira.png",
   },
   {
     toolName: "Figma",
-    percentage: "10%",
+    percentage: "20%",
     knowledge: ["check design and CSS code", "export files"],
     src: "./assets/tools/figma.png",
-  },
-  {
-    toolName: "NodeJS",
-    percentage: "5%",
-    knowledge: ["Learning Back-end"],
-    src: "./assets/tools/nodejs.png",
   },
 ];
 
