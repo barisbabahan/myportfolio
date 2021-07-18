@@ -1,11 +1,11 @@
-##Welcome to my portfolio
+## Welcome to my portfolio
 
-##Starting app:
+## Starting app:
 
-####First step:
+#### First step:
 	npm install
 
-####Second step:
+#### Second step:
 	npm start# myportfolio
 # myportfolio
 
