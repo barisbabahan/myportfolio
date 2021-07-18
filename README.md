@@ -6,7 +6,8 @@
 	npm install
 
 #### Second step:
-	npm start# myportfolio
+	npm start
+	
 # myportfolio
 
 You can go to my portfolio => https://barisbabahan.com/
