@@ -32,13 +32,14 @@ const EducationSection = () => {
         >
           <ul>
             <li>
-              Learning each programming language fundamental. Learning data
+              Learning each programming language fundamental. 
             </li>
             <li>
-              Structure and analysis of the algorithms. Improving analytical
+              Learning data Structure and analysis of the algorithms. 
             </li>
-            <li>Mindset. Learning how to find the requirements for software</li>
-            <li>Projects. Improving communication and collaboration</li>
+            <li>Learning how to find the requirements for software Projects.</li>
+            <li>Improving analytical Mindset.</li>
+            <li>Improving communication and collaboration</li>
           </ul>
         </Grid>
       </div>
