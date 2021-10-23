@@ -1,13 +1,15 @@
-## Welcome to my portfolio
+## Welcome to my portfolio website
 
 ## Starting app:
 
 #### First step:
-	npm install
+
+    npm install
 
 #### Second step:
-	npm start
-	
+
+    npm start
+
 # myportfolio
 
-You can go to my portfolio => https://barisbabahan.com/
+You can go to my portfolio => https://barisbabahan.com
