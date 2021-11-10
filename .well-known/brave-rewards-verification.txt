@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: barisbabahan.com
+Token: ec21f91959bb2ba351e7ee6eaf315758be410feff986761d87c7139df6e8704c
